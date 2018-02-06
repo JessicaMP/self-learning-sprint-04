@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Geolocation</title>
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <div id="style-selector-control" class="map-control">
+      <input type="radio" name="show-hide" id="hide-poi"
+          class="selector-control">
+      <label for="hide-poi">Hide</label>
+      <input type="radio" name="show-hide" id="show-poi"
+          class="selector-control" checked="checked">
+      <label for="show-poi">Show</label>
+    </div>
+    <div id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc3n0uNj54OIjYTN4o_PsjynfAv3NwYDI&callback=initMap"
+  type="text/javascript"></script>
+    <script src="../js/app1.js"></script>
+  </body>
+</html>
